@@ -6,7 +6,6 @@ provisioner:
   name: chef_zero
 
 platforms:
-  - name: ubuntu-12.04
   - name: centos-6.4
 
 suites:
@@ -14,3 +13,7 @@ suites:
     run_list:
       - recipe[jfw-dotfiles-cookbook::default]
     attributes:
+      user:
+        name: vagrant
+        group: vagrant
+        home: /home/vagrant
