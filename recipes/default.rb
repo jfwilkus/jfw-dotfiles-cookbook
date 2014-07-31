@@ -11,5 +11,5 @@ remote_file "#{node['user']['home']}/.bashrc" do
   mode "0700"
   source "https://raw.githubusercontent.com/jfwilkus/dotfiles/master/.bashrc"
   owner node['user']['name']
-  owner node['user']['group']
+  group node['user']['group']
 end
