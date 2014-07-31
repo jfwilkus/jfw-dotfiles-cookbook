@@ -1,4 +1,5 @@
 default[:homebrew][:formulas] = [
+  'brew-cask',
   'bash-completion',
   'rbenv',
   'ruby-build',
