@@ -12,6 +12,7 @@ suites:
   - name: default
     run_list:
       - recipe[jfw-dotfiles-cookbook::default]
+      - recipe[jfw-dotfiles-cookbook::packages]
     attributes:
       user:
         name: vagrant
