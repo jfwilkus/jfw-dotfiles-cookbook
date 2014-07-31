@@ -1,6 +1,10 @@
 
 if platform_family?('mac_os_x')
   include_recipe 'homebrew'
+
+  node[:homebrew][:formulas].each do |package|
+    package package
+
 end
 
 if platform_family?('rhel')
