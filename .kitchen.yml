@@ -17,3 +17,5 @@ suites:
         name: vagrant
         group: vagrant
         home: /home/vagrant
+        fullname: Vagrant user
+        email: vagrant@example.com
