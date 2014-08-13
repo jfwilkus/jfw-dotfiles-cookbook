@@ -1,4 +1,4 @@
-default[:homebrew][:formulas] = [
+default['homebrew']['formulas'] = [
   'brew-cask',
   'bash-completion',
   'rbenv',
@@ -10,7 +10,7 @@ default[:homebrew][:formulas] = [
   'go',
   'vagrant-completion'
 ]
-default[:yum][:packages] = [
+default['yum']['packages'] = [
   'git',
   'bash-completion',
   'docker-io'
