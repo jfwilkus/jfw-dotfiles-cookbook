@@ -1,5 +1,6 @@
 default['homebrew']['formulas'] = [
   'brew-cask',
+  'wget',
   'bash-completion',
   'rbenv',
   'ruby-build',
@@ -13,5 +14,6 @@ default['homebrew']['formulas'] = [
 default['yum']['packages'] = [
   'git',
   'bash-completion',
-  'docker-io'
+  'docker-io',
+  'wget'
 ]
