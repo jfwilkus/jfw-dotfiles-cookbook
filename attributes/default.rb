@@ -16,6 +16,6 @@ default['yum']['packages'] = [
   'bash-completion',
   'docker-io',
   'wget',
-  'mkisofs',
+  'genisoimage',
   'https://dl.bintray.com/mitchellh/vagrant/vagrant_1.6.3_x86_64.rpm'
 ]
