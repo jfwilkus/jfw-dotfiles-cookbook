@@ -4,7 +4,7 @@ maintainer_email 'jfwilkus@mac.com'
 license          ''
 description      'Installs/Configures jfw-dotfiles-cookbook'
 long_description 'Installs/Configures jfw-dotfiles-cookbook'
-version          '0.1.9-alpha.1'
+version          '0.1.10'
 
 depends 'homebrew'
 depends 'yum'
