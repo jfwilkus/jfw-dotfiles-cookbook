@@ -8,6 +8,16 @@ if platform_family?('mac_os_x')
     end
   end
 
+  script "brew upgrade" do
+    interpreter "bash"
+    user "root"
+    cwd "/tmp"
+    code <<-EOH
+    brew upgrade
+    brew cleanup
+    EOH
+  end
+
 end
 
 if platform_family?('rhel')
