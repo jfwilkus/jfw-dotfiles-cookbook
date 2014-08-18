@@ -4,7 +4,7 @@ if platform_family?('mac_os_x')
 
   node['homebrew']['formulas'].each do |package|
     package package do
-      action :install
+      action [:install, :upgrade]
     end
   end
 
