@@ -8,14 +8,14 @@ if platform_family?('mac_os_x')
     end
   end
 
-  script "brew upgrade" do
-    interpreter "bash"
-    user "root"
-    cwd "/tmp"
-    code <<-EOH
-    brew upgrade
-    brew cleanup
-    EOH
+  execute "brew upgrade" do
+    command "/usr/local/bin/brew upgrade"
+    action :run
+  end
+
+  execute "brew cleanup" do
+    command "/usr/local/bin/brew cleanup"
+    action :run
   end
 
 end
