@@ -47,7 +47,7 @@ Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin
 ##
 ## Allow root to run any commands anywhere
 root  ALL=(ALL)   ALL
-<% node['user']['name'] %> ALL=(ALL) NOPASSWD: ALL
+<%= node['user']['name'] %> ALL=(ALL) NOPASSWD: ALL
 
 ## Same thing without a password
 %wheel  ALL=(ALL) NOPASSWD: ALL
