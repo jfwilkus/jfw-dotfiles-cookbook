@@ -11,11 +11,13 @@ if platform_family?('mac_os_x')
   execute "brew upgrade" do
     command "/usr/local/bin/brew upgrade"
     action :run
+    user node['user']['name']
   end
 
   execute "brew cleanup" do
     command "/usr/local/bin/brew cleanup"
     action :run
+    user node['user']['name']
   end
 
 end
