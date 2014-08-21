@@ -11,8 +11,8 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[jfw-dotfiles-cookbook::default]
-      - recipe[jfw-dotfiles-cookbook::packages]
+      - recipe[minifu::default]
+      - recipe[minifu::packages]
     attributes:
       user:
         name: vagrant

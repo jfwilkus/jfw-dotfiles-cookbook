@@ -1,4 +1,4 @@
-# jfw-dotfiles-cookbook
+# minifu
 
-TODO: Enter the cookbook description here.
+A cookbook to manange my systems.
 

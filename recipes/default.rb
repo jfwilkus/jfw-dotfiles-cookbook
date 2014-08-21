@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: jfw-dotfiles-cookbook
+# Cookbook Name:: minifu
 # Recipe:: default
 #
 # Copyright (C) 2014

@@ -1,4 +1,4 @@
-name             'jfw-dotfiles-cookbook'
+name             'minifu'
 maintainer       'James F Wilkus'
 maintainer_email 'jfwilkus@mac.com'
 license          ''
