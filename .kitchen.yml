@@ -12,7 +12,6 @@ suites:
   - name: default
     run_list:
       - recipe[minifu::default]
-      - recipe[minifu::packages]
     attributes:
       user:
         name: vagrant
