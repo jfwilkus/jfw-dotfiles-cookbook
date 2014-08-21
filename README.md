@@ -1,4 +1,4 @@
 # minifu
 
-A cookbook to manange my systems.
+A chef cookbook to manange my personal systems.
 
