@@ -1,4 +1,6 @@
 default['homebrew']['formulas'] = [
+  'curl',
+  'aspell',
   'brew-cask',
   'wget',
   'bash-completion',
